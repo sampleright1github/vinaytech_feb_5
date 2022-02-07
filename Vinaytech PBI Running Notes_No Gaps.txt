@@ -1,0 +1,1407 @@
+What is Data?
+
+Which you are be store is called "Data"
+
+How many types of data we are aboe to store?
+
+Three types
+
+a) Structured Data : Excel, Table etc...
+b) Semi-structured data: Log files, Auditing files, JSON Files etc...
+c) Unstructured data: No structure : Social Media, Documents, Sensor Data, Satellite Signals...resume data...
+
+Note: You may work with any type of data in Power BI
+
+How many types of storages available?
+
+
+Two types of storages
+
+a) Cloud Storage: 
+
+	a) Somebody else storage area storage
+	b) You need account to work with the storage
+	
+	Example: Azure, Salesforce, Redshift etc...
+
+b) On-Premise Storage: 
+	
+	a)Within the organization storage area
+	b) You do not require any account, just windows credentials required [windows storage]
+
+
+How many types of Formatting available?
+
+a) File format data
+
+b) Table data
+
+
+What type of Inputs we use in Real-Time?  (while working with Power BI)
+
+
+Files: [ File Format, may be On-Premis or  Cloud]
+====
+
+a) Excel 
+b) CSV Files [Comma Seperated File]
+c) Flat File [.txt]
+d) PDF File
+e) JSON [ Java Structured Object Notation File]
+etc...
+
+Databases: [Table Format, may be On-Premise or Cloud]
+========
+SQL Server
+Oracle
+Teradata
+
+Cube Databases [Table Format, may be On-Premise or Cloud]
+============
+Cube database is a specially designed database which stores specific data and suitable to prepare aggregate and analytical data.
+
+Tabular Cube Database
+Multi-dimensional Cube
+Hyperion Cubes
+SAP BO Cubes
+
+
+SAP HANA...
+
+
+Warehouses and Huge Storages
+=====================
+SQL Warehouse
+Snowflake 
+Datalake 
+etc...
+
+
+Power BI: 
+
+1st :
+	"Powering BI"
+	Adding Power to the existing BI
+
+2nd:
+	Microsoft Definition
+	
+	" It is a Business Analytics Service which deliver Insights for faster and inforative decision making"
+
+3rd:
+	Few Scientists
+
+	"Self Service BI with the below additional services
+		a) Any type of data lodable
+		b) Data Model Supportive
+		c) Analytical and Visualization Supportive
+		d) Multiplatform displayable
+		
+
+Input and Output of Power BI:
+
+	Input:  Data [the above  ...any format, any storage, any type]
+	Output: Report / Dashboard
+
+What is required to work with Power BI?
+
+
+	a)To Generate Reports and To Perform End-End Operations, We need Power BI Desktop.
+	b) To Manage Reports and Storage, we need Service and Account [Pro / Premium] --Cloud [app.powerbi.com]
+		or 
+	 To Manage Reports and Storage, we need Report Server and Windows Account --On-Premises
+
+	Additional Components:
+
+	a) Paginated Report Builder
+	b) Power BI Developer
+	c) Power BI Embedding
+	etc...
+
+
+Power BI generates reports and dashboards which are suitable for decision making.
+
+We need 
+
+a) Report Development Component [Power BI Desktop]
+
+b) Report management component [Power BI Service / Server]
+
+
+
+Power BI Desktop Installation:
+
+Design Reason: End-End Report Preperation [ Power BI Document Preparing]
+Inspiration:  Excel Pivot (2010) + Tabular Cube (2012) + SSRS [Dandas] and Sharepoint Integration (2012)
+Announcement Year: 2013 July
+Power BI Desktop Changes:  If there are updates in the desktop, it will change.
+Initial Look and Feel: Close to Excel
+Modern: Seperate Look and Feel [ Yellow clustered bars]
+
+Software requirements:
+a) Windows 10 or above [better experience]
+     Note: Few Desktops support wndows 8.1 or earler
+b) RAM: Min 2 GB [ 4 GB recommended]
+c) Processor Speed: Min 1.5 GHz [ 2 GHz is recommended]
+d) Display Orientation: 1900* 1400 [Min 2k resolution is good]
+e) Landscape orientation 
+Note: While practicing take display size [font] : 125%
+
+Go to Desktop--> This PC --> right click properties--> See the configuration, go to Display tab and see the size and orientation.
+
+
+How to download?
+	Two ways
+	a) Google it and download
+			1. Normal Download from Microsoft Store
+			2. Advanced Download 
+	b) Go to Power BI Service (app.powerb.com)--> Download-->Power BI Desktop
+	Note:  b) is recommended because it will download the apt desktop for the service.
+
+
+1. Opened PBI Desktop, explained all features.
+2. Saved it as PBIX document [Power BI Desktop Document]
+3. Observed the sizes of PBI Desktop Document and Microsoft Word Document
+
+BI [END-END PROCESS]
+Business Data / Non Business Data--> Extract [Get Data]---> Transform [Quality Check--> Transform]--> Modeling-->
+Secure--> Visuals-->
+
+Account: To use the service of other organizations we need an account to charge.
+
+Power BI Support three types of accounts
+
+a) Free: 
+	School / college / organization valid domain address, you can create an account. 
+	Report creation possible. Managing reports is not possible.
+b) Pro:
+	Limited storage account and limited operations account [10 GB Storage, 1 User, $9.99/Month]
+
+c) Premium: 
+	Capacity Pricing Account and More featured account [ Deployment Pipeline, Incremental Refresh, Azure Data Lake 		Store for Analytics]. Indicated with Diamond symbol.
+
+	Legacy
+		Premium p1: TBs, 25 GB RAM, 8 VCore System,  $4999/ month    [ we need to contact sales team] 
+		Premum p2: TBs, 50 GB RAM, 16 VCore System,  $9999/ month  [ we need to contact sales team] 
+		Premium p3: TBs-PBs, 100 GB RAM, 32 VCore System,  $19999/ month  [ we need to contact sales team] 
+	Modern
+		Due to request from multiple organizations for premium features with less cost... they released premium 
+		per user licence.
+		
+		a) Premium Per User
+		b) Premium Capacity Pricings
+
+
+Can I Create my account?
+
+	You can create Free / Pro / Premium Per User accounts.
+	a) Trial Account [60 days]
+	b) Buy out account --With Credit Card
+
+	Note: For Premium Capacities [p1, p2, p3], need to contact sales team.
+
+What type of accounts you observed in the organization?
+
+	BOA(Bank Of America): 7 Pro, 2 P1 accounts, 1 P2
+	Wells Fargo: 32 Pro, 1 P2, 1 P1
+	Small Customer: 10 Pro accounts [ analysis in the datamart culture]
+
+Use the below URL for pricing:
+
+https://powerbi.microsoft.com/en-us/pricing/
+
+
+How do we create our own account?
+
+Link: https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/
+
+
+Trial Account: [ 60 days : Pro account or Premium Per User Trial]
+		
+1. A valid domain email address [school / college / university / organiztion]
+2. Your email address--> Power BI User Name [ pro / premium per user email address] 
+3. Connect with your account to app.powerbi.com--> activate trial
+
+Buying:
+
+Note: Same process except 3rd step...we need to use Credit Card to buy 
+
+We will give you two accounts for your practice [Power BI Service].
+You will get accounts till one year.
+
+
+
+
+
+
+===================================================================
+1st Section in the SSBI [End-End BI] EXTRACTING DATA FROM MULTIPLE SOURCES[ multiple data feeds]
+====================================================================
+Objective: 
+How do we connect and bring data from multiple types of sources
+[Files, Databases, Cubes, Cloud sources etc...]
+a) Create a table dynamically at Power BI
+b) Create a query using flat file [.txt]
+c) Create a query using flat file [.csv--comma seperated value file]
+d) Create a query using flat file [anonymous extension....vinay, .raghu etc...]
+e) Getting data from Website [.html, .php, .aspx etc...]
+f) Getting multiple files from a folder and merging files data  [appending]
+    Protocol: Structure should match [ Name, data type, data type order, number of columns]
+g) Getting data from PDF [normal page reading and table data reading]
+h) Getting data from JSON file [ Java Structured Object Notation ]
+	--Semi structured file, Easy to understand, Contain simple structure [attribute and property], extension [.json]
+	--Web developers [themes, shapemap, Big Data etc...]
+i) Generating tables / queries using Mashup and DAX languages
+
+
+
+Table Visual Features:
+a) Column by column data display [columnar visual]
+b) Supports formating row and coumn wise [static formating and dynamic formatting]
+c) No drilldown and drillup at table level
+d) Shows Total section in the down.
+e) If you want to show more rows [data display], then only one visual Table is helpful.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+j) Retrieving data from SQL Server Database [Table / View/ Procedure / Function]
+k) Retrieving data from Azure SQL Database
+l) Retrieving data from Tabular Cube database
+
+What is flat file?
+Any editor generated file is called as flat file.
+Ex: Notepad, Wordpad, Vi [Unix] etc...
+
+How many options you will find when we work with flatfile?
+
+ When we work with flat file we will find three options 
+a) Code page [language and characterset]
+b) Data type detection [ identifying data type for the columns]
+c) Delimiter [separators  Ex: comma, tab, pipe etc...]
+
+If I select data type detection as entire dataset, what happens?
+Performance will decrease, but you will get accurate data types.
+
+When does system establish auto relationships?
+The algorithms consider the below three protocols
+a) Name b) Data type  c) Data Values
+
+How do you see how much memory / cpu Power BI Desktop is occupying? [performance tip]
+Go to Windows-->Task manager[ctrl+alt+del]-->Background processes and Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXTRACTION--> TRANSFORMATION--> MODELING--> SECURE-->VISULIZATION
+
+
+I want to generate queries using Power BI Popular languages...
+
+PBI uses two langs
+a) Mashup:  
+	Used for "Extract and Transform" operations
+	"Fastest lang to implement transform operations"
+	Available at Power Query Level
+	
+	Get data--Blank Query-->Power Query Area-->formula bar, =List.Numbers(200,10), Save 
+
+b) DAX
+	Used for "Modeling and Analysis"
+	[Data Analysis Expressions]
+	It is a functional / formula language
+	Available at "Power View" level
+	Modeling menu--> New table --> formula bar--> 
+	Date Table=calendar(date(2021,01,01),date(2021,01,10))
+
+
+
+
+====================================================================
+Basic Features of Mashup...
+
+	a) Similar to other languages, it has its own elements[identifier, keyword, operator, datatype,
+		function, parameter etc...]
+	b) It has hierarchy to work with operations [functions]: To classify business operations
+	     ClassLibrary. Classes. Method(<arguments>)
+	     SavingsAccount.Withdraw.ATMWithdraw()
+	     SavingsAccount.Withdraw.CashCounter()
+	c) No need to write any Mashup code in real-time [very rare]
+	d) Most of the operations are graphical operations in mashup [right click / menu options]
+	e) If you don't find required functionality, then we go for Own Code Writing in Mashup / R / Python.
+	f) For each Query[set of cols], system generate a mashup script [ we can see in the Advanced Editor area] with steps starting from Source Reading to Till latest opertion.
+	  [You can see the same Graphically at View Menu--> Query Settings]	
+
+	Ex:
+		let
+			Source=from where we got it ,
+			step1/variable1= Source + Respective operation,
+			Step2/variable2=step1+ Respective Operation,
+
+			....
+			StepN/variableN=stepN-1+ Respective Operation
+
+		in  < stepN/variableN>
+
+	g) We can add steps  / modify steps [update/delete] in two ways
+			1. Advanced editor coding   2. Query Settings--> Graphically 
+=====================================================================
+List: Single column of values [ can be converted to Table]
+Query: Set of columns
+Note:  SQL Query Terminology and Power BI Query Terminology are Different
+--------
+JSON: Java Structured Object Notation  [File extension is .json]
+	Semi structued file [suitable for partial structured, unstructured, and structured data]
+	Simple language
+	Need to have understanding about properties and attributes.
+-------
+Extract Topic Pending:  a) Database Retrieval b) Cube database retrieval c) Azure Cloud data retrieval 
+-------
+Transformation: Power Query area
+
+
+We need to use our Institute data [DWH data, which has dimension and fact terminology]
+
+Dimension: Textual attribute [column which is not suitable for aggregate operations]
+Dimension Table: Contains textual data [master table, primary key]
+
+Fact: Measure: Calculated value / Aggregated value
+Fact Table: Child Table : Contain two sections a) Dimension references b) Measures
+
+When do we go for transformation?
+a) Columns not properly available b) Need sorting on values c) Need filtering on values d) Grouping values
+e) Transpose rows into columns f) Reverse rows g) Adding columns [sequntial /logical / conditional] etc...
+
+Where we go to implement it?
+Power Query Area [a)Home menu-->Transform Data    b)     While retrieving also we can go]
+
+How do perform transformations in Power Query?
+a) Built-in options [right click->properties] or Menu bar options b) Writing mashup code c) R and Python code
+Note: If the existing Built-in functions not suitable, then go for Mashup or R or Python languages
+
+How many places built-in transforms [graphical] available?
+8 places [a) Queries b) Query c) Column d) Multi Column e) Filter f) Menu g) Steps h) R and Python]
+
+
+
+
+
+
+
+
+
+Copy and Paste: 
+		Legacy options [available in all Microsoft  applications]
+		Here, it copies the query with all setps available
+		It make changes independent to the query [ source changes it does not take]: Independent copy
+
+Duplicate
+		Mashup option [copy + Paste]
+		Here, it copies the query with all setps available
+		It make changes independent to the query [ source changes it does not take]
+
+Reference
+
+		Create a copy with source step only.
+		It will take source changes. It creates dependent copy.
+
+Enable Load:	It allows data loading. It is recommended if you want to use that query on the visual and also used for 
+		data refresh from sources.
+Refresh:		Getting Source data changes into Power BI is called as refresh. Refresh is of two types.
+		a) Full refresh: Complete source data changes into Power BI. Available at Power Query.
+		b) Incremental Refresh: Taking required data [required days/ weeks/ months....] into Power BI. Available at 
+					Report View Level.
+
+
+
+
+
+How many ways we can add columns to a Query?
+5 ways of columns adding
+a) Add Index column: 
+	1.Sequential value adding [starting from 0/1/user defined]
+	2.Realtime:  a) If you don't have a sequential number b) Surrogate key required [Dimensional Modeling]
+b) Add Custom Column:
+	1.To add a column based on logics or expressions
+	2. To implement business logics, we use this column
+c) Add column from Examples: [ Flashy column concept]
+	1. To add a copy of the column  2. To add a column with built-in transforms [We need not write]
+d) Add Conditional Column:
+	1. Add a column by taking conditions and showing values based on condition
+e) Invoke custom function
+	1.It adds a column by invoking existing functions [user defined functions]
+	Note: You must have functions created in your Queries area
+
+
+
+
+
+
+
+
+What is function? When do we go for it?
+Function take set of statements and performs an operation.
+In all IT applications, function is the core element.
+[C, C++, Java, .Net, Python, R etc...they have rich set of functions]
+Programming level, we will create more and more, whereas GUI level, the functions are code behind and available as options.
+
+How do we create functions in Power BI?
+a) Mashup language b) Python and R languages c) Machine Learning Methods
+
+Mashup Language features?
+a) Similar other to languages it has identifier, data types, operators, functions etc... 
+b) It follows hierarchy [ClassLibrary.Classes.Methods] Ex: SavingsAccount. WithDraw.Online/Cash/Card...
+c) For each query, system creates a mashup script [this has all operations starting from source step...]
+	Reading the mashup script:
+	a) Starts with "let" and ends with "in" followed by last step/ variable
+	b) Each step/variable contains previous step + operation 
+	c) One step / variable seperated  to other using comma
+	Note: Script contain multiple statements
+
+
+
+
+Do we need to learn Mashup?
+	Yes, basic understanding of mashup is required.
+	Indetiled knowledge is required for those writing more and more functions and play with scripts.	
+
+Can you give me syntax and one sample function in Mashup?
+<function name>=(arguments)=>(body)
+=(arg1 as Number, arg2 as Number)=>((arg1*10/100) + (arg2*20/100))
+
+Append:
+
+a) Follows set theory UNION ALL operation b) Combine rows from multiple tables
+b) If structure is same, then it will do proper combining d) If structure does not match, it will add the columns seperately [which are not matched]
+ 
+"null" Handling in Power Query?
+Three ways
+a) Replace "null" with user defined value  b) Fillup null values with First Not null value
+c) Filldown null values with Last Not null value 
+
+
+
+
+
+
+
+
+
+
+Group By:  a) Categorizes the data b) Support Aggregate Operations
+	Ex: Creating an aggregate table 
+	[location and mode wise sum of income, avg of income and count of students]
+	Two real-time purposes in Power query:  a) Eliminating duplicates  b) Preparing aggregate table
+Aggregate Table: The table which is having Group By, SUM, AVG, COUNT etc... calculated values
+
+When do you use "Drilldown" in Power Query?
+a) You want a particular column as a list
+b) You don't want the parent query [parent overwritten]
+
+When do you use "Add as New Query" in Power Query?
+a) You want a particular column as a list
+b) You want the parent query retained
+
+Combining Columns: 
+a) If there is at least one Textual column: You will find Merge option only [concatenating with delimiter]
+b) If all are numeric columns: You will find a) Merge b) SUM [total of multiple cols] c) Product[Multiplication] 
+
+Filtering rows: 
+a) Based on data type filter take place b) Sorting and filtering possible c) FIltering again 1.Basic 2. Advanced
+
+Reverse rows: Down rows up and up rows down [top being lowest]
+
+	      Note: This is different from Ascending and Descending order
+
+Transpose rows: Rows into columns and columns into rows
+
+Denormalized data adv and disadv: 
+		[one or more columns having history / redundancy].
+		Adv: As you have history of rows, you can analyze and perform calculations
+
+		Disadv: More memory [because many redundant rows]
+
+Normaized Data adv and DIsadv: [Columns not having redundancy / no history]
+		Adv: Less memory
+		Disadv: Difficult to analyze
+
+Pivoting:		Converting denormalized to normalized format [row to columns]
+
+Unpivoting:	Converting Normalized to denormalized [columns to rows]
+
+
+
+
+
+
+What is merging in Power Query?
+Coditional join between multiple queries and bring columns.
+It has 6 join operations [inner, left outer, right outer, full outer, left anti, right anti
+
+How many types of search we have in merge?
+a) Exact match search b) Fuzzy search [ similarity search]
+
+Multiple same structured queris combining is APPEND.  Equavalent in SQL: UNION ALL
+Multiple queries comibing column wise is MERGE. Equvalent in SQL: JOINS
+Extact Match in Merge: Normal Merge: JOINS in SQL
+Similarity match in merge: FUZZY MATCH:  LIKE OPERATOR with Wild Card Characters (%, _) in Joins
+
+
+
+
+What is datatype? Why do we require?
+Datatype talks about the type of data you are using for storage.
+Based on this the application storage will be.
+Note: You can apply transforms / filtering operations based on datatypes only.
+	Ex: Numeric columns [indication: 123, whole number]: Numerical Calculations
+	      String Columns [indication: abc, Text]: Textual Calculations
+	     Date Columns [indication: calendar symbol, Date]: Date Calculations
+	    Decimal Values [indication:1.2, Decimal or Fixed Decimal]: Decimal calculations 
+
+
+
+Parse: Compile the given textual value, split the cell value into column values.
+	a) JSON Parse: JSON input into columns
+	b) XML Parse: XML input into columns
+Data Quality Options:  a) Column quality b) Column Distribution c) Column Profile
+
+
+
+
+
+
+
+
+
+What is Data type?
+Type of data assigned to the column.
+What is the advnatage of data type?
+Two advantages with appropriate datatype
+a)To reduce unnecessary data storage b) To apply supportive operations c)Position or placement of value
+POWER BI important data types?
+Wholenumber(123), Decimal(1.2), Date(calendar symbol), Boolean, Time, Timezone etc...
+What is the advantage of knowing these?
+Based on data type only you can implement operations.
+Ex: Numeric column--numeric operations
+      String column--textual operations
+      Date column--Date operations [Time operations]
+Note: Numerics always from right to left...textual values always from left to right
+
+C / c++/ .Net / Java etc...lang: integer,decimal, string
+SQL: Smallint, int, bigint,decimal, float,char, varchar
+Power BI: whole number, decimal, fixed decimal, text
+
+CREATE AN AGGREGATE TABLE WHICH SHOWS LOCATION AND MODE WISE SUM OF DISCOUNT_FEE,AVG OF DISCOUNT_FEE,
+COUNT OF STUDENTS
+
+
+
+How many split options available?
+a) By delimiter:  
+	a) vinay, kumar :  After split based on comma --> Column1: vinay  Column2: kumar
+	b) ramesh@gmail.com--> ramesh     gmail.com-->split based on delimiter @
+b) By Number of Characters:
+	Ex: 
+	a) I need in each column 5 chars only.   Numer of characters to split is : 5
+	 b) I have data like this...split it...
+	    HYDTS.
+                     KHAMMAMTS.
+                     WarangalTS.
+
+	    Numer of characters: 3                      once, as far right as possible
+
+	 c) I have data like this...split it...
+	    .TSHYD
+                     .TSKHAMMAM
+                     .TSWarangal
+
+	    Numer of characters: 3                     once, as far left as possible
+
+c) By Positions: Take a number and split into two parts
+	Ex: vinay kumar, by position: 3                Output: Column1: vin   column2: ay kumar
+c)By lower to upper
+	Ex: abcMNO.... column1: abc  column2:MNO
+d) By upper to lower
+	Ex: MNOabc....column1: MNO  column2: abc
+e) By Digit to Non Digit
+	Ex: 123abc...column1: 123  column2: abc
+f) By Non digit to digit
+	Ex: abc123....column1: abc   column2: 123
+
+
+
+
+
+                     
+
+
+
+
+
+
+
+What is refresh? How many mechanisms available?
+
+Getting source data changes into Power BI report is called as refresh.
+
+There are two types 
+a) Full refresh [complete source data refresh]   b) Incremental refresh [only required days data refresh]
+
+How PBI Desktop and PBI Cloud refresh different for On-Premises sources?
+
+PBI Desktop Report Refresh:  On Premises  source--> Power BI Desktop
+PBI Service Report Refresh: On-Premise source--> Gateway---> Power BI Report at Service
+
+Q:	What is the purpose of data source setting?
+A:	a) To see the current source used in the report b) To modify the source
+
+Q:	What is Parameter?
+A: 	User interaction value holder
+
+Q:	How many types of parameters available?
+A:	Three types 	a) Any  	b)List 	c) Query 
+
+Q:	How many ways we can add steps in Power BI Query Level?
+A:	Two ways a) Query Settings-->Insert Step After [Graphical]
+		b) Advanced Editor--> Script level [Coding]
+Q:	What is Parse option in Power Query?
+A:	This option will create columns from JSON and XML data in a column after parsing.
+
+
+
+When do we use New Query in Power Query?
+
+a) You want a column as new query
+b) Parent retained as it is
+
+View:
+a) Logical component to get required rows from the database tables.
+b) Contains "Single Select Statement"
+
+Function:
+
+a) Middle level operational component with multiple operations.
+b) Contain multiple statements + select statement [to return result]
+
+Procedure:
+
+a) Complex / more operations supportive component, it is pre-compiled
+b) Many statements + Select statements [to return result]
+
+Import: Will bring structure and Data
+	If the data volume is less[<1 GB], faster operations you want to do.
+
+Direct Query: Will bring only structure
+	If data volume is more...then direct query is compulsary...
+
+Mixed Mode:	Few queries in import mode + Few queries in Direct Query mode
+
+What is the mode current application is in if it is not showing any mode?
+Import mode
+
+How do you convert Mixed mode / Direct query mode to import?
+Simply click switch mode in the bottom corner
+
+How do you convert Import to Direct query mode?
+Little complex, need to follow a process.
+Few companies:  a) Remove data from queries b) Getting structures again as direct query mode
+
+
+
+
+Tools Menu: Diagnostics: 
+
+a)Displays detailed execution statistics of Query / Step.
+b) Usally displays four types of information [ 1.Detailed 2. Aggregated 3. Performance Counter 4. Partition]
+
+When do we go for it?
+a) To understand the internal process of query / step
+b) To identify the performance bottlenecks or issues
+
+Where will we see the diagnostics options?
+
+a) In diagnistic files [File menu--> Options and Settings--> Diagnostics]
+b) Power Query--> Left hand side panel--> Four options
+
+Detailed Disgnostics: Take more time and more process overhead
+Aggregated Diagnostics: Will take less time and less process overhead
+
+Which is the option good?
+
+Depending on the situation...
+
+
+Evaluator:1 ms
+Evaluator:2 ms
+Evaluator: 3 ms
+
+Evaluator: 6 ms
+
+Help Menu important options: a) About  b) Support c) Community d) Submit area e) Samples
+How the Query Dependencies is helpful?
+a) For new joinees in the project / earlier resources to recap, this is helpful by giving glance of dependency.
+b) So that you can identify master, child queries, dependencies etc...
+c) Before deleting any object, these dependencies will guide us / restrict us
+
+
+
+
+
+
+
+
+
+
+
+
+
+PBI Desktop [1 GB]...
+
+You want  transforms speed ...modeling...
+data in your area...transforms run faster...modeling...
+
+Source changes if you want to bring in to the report...refresh compulsary
+
+More than ...DEsktop ...Direct Query option ...
+
+Every time in the direct query system will get the data from the database server.
+Refresh not required.
+
+Report generation 
+
+Report sharing...report data display...app.powerbi.com....1 gb 10 gb 50 gb 200 gb...
+Pro: 10GB
+Premium: >10GB
+
+
+
+
+What is Native Query?
+ Query Generated by Microsoft to bring data from database
+
+What type query Microsoft generate?
+SELECT QUERY
+
+When do we go for Native Query?
+a) To see the query generated by Microsoft   b) To optimize the SQL Query/ Process
+c) For Query folding
+
+What is Query Folding?
+Taking the steps to the SQL Database and Performing operations at database to bring data.
+The steps taken at Database comes under query folding [steps folding].
+Ex: There are 20 steps in a query, 15 possible at database level, 5 exclusively at Power Query Mashup level.
+In this situation, implement 15 at database [query folding] and 5 at Power Query
+
+Performance Tip: Do the operations at database level and bring the data using customized query.
+
+
+
+
+
+
+Extract--> Transform Process Completed.  Next is Modeling
+Modeling at Power View   a) Filed / Dataset Properties        b) Data Model Properties  c) Modeling Menu
+
+Parsing: 
+It will cosider the JSON / XML as textual data and split into column values.
+
+Recent Sources: 
+Single Line:The data sources used in all reports of current machine
+Adv: Directly you can connect to the source without much effort.
+
+Data Source Settings:
+
+Single Line: Displays current source path / server settings
+Adv: a) You can view b) You can change the path / server settings [ Multiple environments (dev, test, prod)]
+
+What is network path ? How is it advantage?
+
+Network path helps to connect to machine with machine name and folder name.
+
+Remote paths [ remote servers connected using this]
+Syn: \\computername or ip \foldername         Ex: \\vinaytech\Testing_Envi
+
+
+What is PBIDs extension?
+This is data source extension which is useful to quickly connect to the source.
+
+What is Global settings?
+The settings used in multiple desktop documents in the same machine
+
+
+
+
+
+
+
+What is parameter?
+User interaction storage variable.
+What is the usage of parameter?
+a) User inetraction b) Environment connections [connection strings]
+How many types of parameters we have?
+a) Any: Support user interaction by entering value
+b) List: Static list of values in the drop down for user selection
+c)  Query: Dynamic list of values in the dropdown for user selection
+How do we operate parameters?
+a) Create it b) Filter it at Query-->Field level
+User Passing values--> Parameters--> Query---> Visual
+Ex: I want a report which has three values user interaction [stdid, locid and courseid]
+
+What is Cascading parameter?
+One parameter output is input to another parameter.
+Ex: If we select country, showing state, if we select state, showing district etc...
+Country-->State-->District-->Mandal etc...
+Note: This concept is not available in PBI 
+Are the parameters flexible to customers?
+Not flexible and these are only at Power BI Desktop.
+Hence we go fo Filters, Slicers in older projects, latest projects What-If parameter topic. 
+
+How do we add steps in between for a query?
+Two ways a) Steps-->right click-->Insert step after    b) Go to advanced editor--> Add step using code
+
+How do we get first 6 setps and construct a query from the parent query which is having 15 steps?
+Step--> right click--> Extract Previous...
+
+a) Getting Objects using import mode [by selecting]--completed
+b) Getting Objects using direct query mode [by selecting]--completed
+c) Generating query by writing a custom SQL (select) query [either of the modes]
+d) Generating query by getting data from procedure
+e) Import Mode: Which brings structure +data [till 1 GB it is effective to perform transforms, calculations and visuals show]
+f) Direct Quey : Which brings only structure [for more volumes of data and to get fresh data always from the source]
+g) Mixed Mode: import +direct query
+h) Converting from Direct Query/ Mixed Mode to Import--> Simple process--> right click switch mode and convert
+i) Converting from Import/ Mixed mode to Direct query--> Complex process--> A separate process required
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When do we use change data source settings [file path / database (normal/cube) / cloud source path]?
+a) Report has to be tested / viewed with multiple environments data
+b) Reports has be scheduled with multiple environments [production environment]
+
+
+
+Data Display Visuals: [Card, Multirowcard, Table, Matrix]
+
+Card Visual: Single Value display visual
+Multirow card visual: Multiple values [cards] in a row display visual
+Table Visual: Multi column visual [columnar visual]
+
+==================================================================
+1st Section : Data Extraction from Multiple Sources
+==================================================================
+Getting Data from Faltfile, Excel, Csv, Json, Mashup Expression, DAX Expression, SQL Server Database
+ [Table, View, Function, Procedure]
+
+Note: SSAS Tabular Cube and Azure SQL Database [Video]
+
+==================================================================
+2nd Section : Data Transformation on Excel file data and SQL Server Tables
+==================================================================
+Transforms at 8 places [Queries, Query, Field, Multiple Fields, Filter, Menu, Steps, R, Python, and AI]
+
+==================================================================
+3rd Section in Reporting [Modeling] : Relationships and data dependencies establishment
+Extract--> Transform--> Modeling
+==================================================================
+There are three places we need to focuss
+a) Dataset properties 
+	1. Query Properties [Date Table Consideration, Incremental Refresh /Refresh, Hide, Expand etc...]
+	2. Field Properties [Group, Hierarchy, Drillthrough etc...]
+	3. New Measure, New Column, New Table etc...
+b) Data Model relationships 
+	1. Denormalized Model Relationships [1:1,1:Many,Many: Many]
+	2. Fact Table [Summarized Table, Aggregated Table], Dimension Table [Textual Table]
+	3. Star Schema, Snow Flake Schema, Galaxy Scheme, Mixed Schema etc...
+	4. Single and Bidirectional relationship
+	5. Active and Inactive relationships
+	6. Surrogate Key and Role Playing Dimensions
+	7. Query Additional Settings
+	8. Field Additional Settings [Display Folder, Visibility etc...]
+
+C) Modeling Menu-->Important Modeling Measures using DAX [to reduce creating unnecessary measures multiple times]
+
+
+What is refresh? How many mechanisms available?
+Getting source data changes into Power BI report is called as refresh.
+There are two types 
+a) Full refresh [complete source data refresh]   b) Incremental refresh [only required days data refresh]
+
+How PBI Desktop and PBI Cloud refresh different for On-Premises sources?
+PBI Desktop Report Refresh:  On Premises  source--> Power BI Desktop
+PBI Service Report Refresh: On-Premise source--> Gateway---> Power BI Report at Service
+
+Mark as Date Table: It will consider a table as date table, so that all date calculations you can apply quickly.
+
+Note: The specified date column should have unique values and no gaps in them
+
+Hierarchy: 
+	Contain multiple levels and members. Minimum two levels required. Advantage [to perform drilldown and drillup 	analysis with easy aggregate values show]. Hierarchies support dimension values[textual values].
+	Ex: Location Hierarchy: Country-->State--> Dist-->Mandal etc...
+    	  Year Hierarchy: Year--> Semister / Half Year--> Qtr--> Month--> Fort Night--> Week-->Day
+Groups:    Categorize data. 
+	Two types of groups [a) Physical Group at Power Query b) Logical Group at Power View]
+	Logical groups:
+	a)List Group: List of values grouping [For all data type columns]
+	b)Bin Group: Based on size or Count we will create [ For Numerics and Dates]
+	Note: Binsize indicate one group to another group value difference, count indicate number of groups.
+	           We can create any number of logical groups.	
+
+Group: Categorizes the data and also support aggregate operations.
+Power Query: Physical Group: Group + Aggregate Values [compulsary]
+Power View: Logical Group: Groups only [ List (numeric, string, date), Bin [Numerics, Date]]
+
+What is the difference between Bin size and Count?
+Size is the group value difference, count is the number of groups.
+3000
+6000
+9000
+12000
+15000
+bin count :3, size decided by the system
+3000+6000   9000+12000  15000
+
+
+
+
+
+
+
+
+
+
+DAX Measures Creation:
+
+DAX: Data Analysis Expressions
+
+Data Modeling and Analysis langauge / Functional Lang / Formula Lang.
+===================================================
+Similar to other langs it has many elements, but most imp elements are identifiers, operators, keywords etc...
+functions
+=============================================================================
+9 categories of functions...[Date, Parent & Child, Time Intelligence, Filter, Math & Trig, Statistical, Information, Logical etc...]
+=============================================================================
+
+Current Year Sales, Previous Year Sales, Two Years Back Sales, Next Year, Next Two Years Sales,
+Growth, Growth Percentage also.... I want to write calculations and place in the table...
+
+Current: 30000   Last year=20000
+
+Growth=current-last=30000-20000=10000
+Growth Percenatge=Growth/ Lastyear * 100
+		10000/20000  * 100=1/2 * 100=50%
+
+
+Measure: Single value result component
+New Column: Multiple values result component
+New Table: Multiple columns result component
+
+Measure : Is a calculated value / aggregate result value
+Sum/Average/Count/Max/Min will do complete columnwise operation [all values participated].Single Arg.
+Calculate: Perform calculations based on expression. Two arguments needed.
+
+Parent Measure:
+
+Sum DF=Sum(Factpayments [Discount Fee])
+Avg DF=Average(Factpayments[Discount Fee])
+Count Std=Count(Factpayments[StudentID])
+
+Dependent Measures:
+
+Last Year Sales=calculate([Sum DF],previousyear(DimDate[Date]))
+Two Years Back DF=calculate([Sum Df], previousyear(previousyear(DimDate[Date]))--lengthy way
+Two Years Back DF 1=Calculate([Sum DF], parallelperiod(Dimdate[date],-2,year))--shortcut
+Previous N Years DF=Calculate([Sum DF], parallelperiod(Dimdate[date],-N,year))--shortcut
+
+Next Year Sales=calculate([Sum DF],Nextyear(DimDate[Date]))
+Two Next Years DF=calculate([Sum Df], Nextyear(nextyear(DimDate[Date]))--lengthy way
+
+Two Next Years  DF 1=Calculate([Sum DF], parallelperiod(Dimdate[date],2,year))--shortcut
+Next N Years DF=Calculate([Sum DF], parallelperiod(Dimdate[date],N,year))--shortcut
+
+Sub Dependent Measures
+
+Growth=[Sum DF]-[Last Year Sales]
+Growth Percentage= Divide(Growth, [Last Year DF) * 100
+
+Current : 30000 Last Year:20000
+Growth=30000-20000=10000
+Growth Percentage=10000/20000 * 100=1/2*100=50%
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+Without going to model (using DAX) implementing Bidirectional relationship and calculations
+
+Using CROSSFILTER function
+
+Count of courses
+=calculate(DISTINCTCOUNT(DimCourse[CourseID]),crossfilter(FactPayments[CourseID],DimCourse[CourseID],both))
+
+
+Without going to model (using DAX) providing dynamic / runtime  relationship and calculations
+Using USERELATIONSHIP
+Enquiry Date based DF = CALCULATE(sum(FactPayments[Discount_Fee]),USERELATIONSHIP(FactPayments[Enquiry_Date],DimDate[Date]))
+
+
+
+
+
+
+Reuse the data model across team[s]:
+
+a) Share the pbix file [Normal]
+b) Publish to cloud and ask team to use it [recommended]
+c) Create a template and share [pbit creation and it has only structure]
+d) Create a Dataflow at cloud service and use it
+
+How do we use Power BI Template?
+a) Open Power BI Desktop, File Menu--> Import --> Template--> Specify the file path
+b) Go to Data Source Settings, specify the proper file path [to bring the data]
+c) Refresh Data
+d) Save Report
+
+Working on Visuals
+----------------------
+Visual: A component which shows data or graphical incuded data.
+
+Visual Types:
+		a) Field Visual
+			1.Data Display Visual [Card, Multi Row Card, Table, Matrix]
+
+			2. Data + Graphical information visual 
+				a) Simple Graphical [KPI, Gauge etc...]
+				b) MOre Graphical [Charts, Maps etc...]
+
+		b) No Field visual
+				Buttons, Images, Shapes etc...
+
+
+a) Report prepation process in real-time [Documents, important settings], Input and Output Docs
+b) Created a page with all required settings
+	1. Page Settings  2. Page View Settings 3. Themes
+c) I created a page with Image [explained format options], Textbox, Line, and buttons
+	QA Button: a) Control + Enter required  b) Dialogue box opened c) User colors, formations not possible
+	QA Visual: a) Seperate Visual b) User colors, formation possible
+
+Bookmark: User interested area / snapshot of the visual or page
+	  Two places we will create	a) PBI Desktop Level [developers created for customers]
+				b) Service Level [Customers create]
+
+d) Bookmark action to go to respective bookmark page
+e) Page navigation action to go to respective page
+f) Data Display Visuals:
+
+	Card: Single value display [A column with aggregation / Measure (which is claready created) ]
+	Multi row card: Multiple values in a row display
+	Table Visual: Columnar visual. Column by column operation [data show, data formating etc...]. Total row added.
+		     No Drilldown and No Drill up.  For more rows show table is suitable visual.
+	Matrix Visual: Cross tab reporting visual [rows vs columns aggregate values show]. Less rows show. Supports
+			Drilldown and Drill up.
+
+
+
+g) Filters: 	Static data filtering[dynamic data filter is slicer]. Four types of filters.
+	Visual Filter: Respective visual filtered[ Options: Basic, Advanced, TopN]
+	Page Filter: Respective page filtered (all visuals in the page filtered) [ Options: Basic, Advanced]
+	Report Filter: All pages in the report filtered [Options: Basic, Advanced]
+	Drill through filter: Two types
+			a) Single report drill through: One page to another page in the same report
+			b) Cross report drill through: One page one report to another page in another report
+
+h) Slicers: Dynamic user interaction visual.  It shows the visual data in List, Dropdown, Between and, Greater than or equals or
+	less than or equals. For numeric and date[all options], string[list and dropdown]. Vertical [default] and horizontal 		orientation [button format] available. Slicer support values and hierarchies.
+	Note: Before horizontal orientation, we used to go for Chiclet slicer. Before hierachies in the slicer, we used to go for
+	          Hierarchy Slicer.
+   Sync Slicing: If you need a common slicer in multiple pages with data slicing common in all pages, you need sync slicer.
+
+
+i) KPI:	Key Performance Indicator. Talks about Current Vs Target. Simple cute visual.
+j) Gauge: Rounded 180 degree shape. KPI+ Min value+Max Value. Litte more measures taking visual.
+
+
+		
+	
+
+
+
+
+
+
+What is Z order?
+WHen you have multple visuals, the way you want to load or appear is called as z-order
+[select order ]
+
+Charts:  [For textual info against numerical values(minimum one textual and one measurable value is compulsary]
+	Multi field visual with multiple values show graphically. Charts designed for four types of operations
+	a) Distribution b) Comparison c) Composition d) Relationship
+	Distribution: With in the min category distributing sub categories
+	Comparing: One value comparing to other value
+	Composition: Combination of all parts / slices into 100%
+	Relationship: How multiple measures related for category of textual values
+	Note: There are different types of charts for different purposes
+Stacked: Distributed
+Clustered: Grouped [individual values group]
+Bar: Comparison
+100%--> Composition
+
+Practice the below: a) Parent with multiple levels b) Child with multiple levels c) Values d) Tool tip additional column
+		e) Small multiple [bar charts]
+
+Row Chart: Depending on the number of values at row ...we prefer this
+Column chart: Depending on the number of values at column... we prefer this
+
+Stacked Bar: Distributed+ Comparison[row wise]
+Stacked column: Distributed + Comparison [column wise]
+
+Clustered Bar: Individual Group+ Comparison [row wise]
+Clusterd Column:Individual Group+ Comparison  [column wise]
+
+100%Stacked Bar: Composition+ Distribution+ Comparison [row wise]
+100% Stacked Column: Composition + Distribution + Comparison [column wise]
+
+Pie Chart: a) Rounded shape chart b) All values composition as 100% c) Limited categories show d) Displays in Slices
+Donut Chart: a) Rounded shape chart b) All values composition as 100% c) Limited categories show d) Displays in Slices
+		e) It has inner radius f) If inner radius is 0, then it is Pie chart.
+
+Line Chart: Trend Analysis [ Time based / Category Based]
+
+Area Chart: Area filling and overlapping areas
+
+Mixed Charts:
+
+Line and Clustered Column Chart: Trend Analysis [One measure]+ Individual values group+ Comparison [one measure]
+Line and Stacked Column Chart: Trend Analysis[One measure]+ Distribution+ Comparison[One measure]
+
+Funnel Chart:  
+a) Top down analysis  b) Top one considered as 100%  c) Remaining validated based on top and previous
+
+Waterfall chart:
+a) Positive and negative values show b) Up and Down values show  c) Based on the green or red bar the profit or loss identification will be
+
+Scatter Chart: Relationship Chart
+a) Two Axis need two measures b) Category values compared againt to them c) Also has Play axis
+d) Display the relationship in the form of bubbles and their sizes
+
+Note: Except scatter chart, rest all charts take one measure in one axis (either X or Y)
+
+KPI/ Gauge: For one Indicator analysis
+Charts: Multiple field values [textual and measurable] analysis
+Bullet Chart: One column of values against indicators analysis. Custom Visual.
+
+
+
+Maps: To generate geo spatial maps. It takes location details or longitude and Latitude.
+           Support cross filtering, highlighting and slicing. Four major types of built-in maps.
+	There are four map visuals
+
+	a) Map [ Bubble map, Bing Map]:2013
+	b) Filled Map [Area filling map, Bing Map]:2015
+	c) Shape Map [Own Shape Map, Color saturations to control business values]:2019 begining
+	d) ArcGis Map [Complex map with many layers and features… This is from ESRI organization]:2020 
+
+	Aeronautical Reconnaissance Coverage Geographic Information System
+
+	Note: Heatmap will generate a map by exposing the business values in the form of heat presentation.
+	          This is different from bubble size and has its' own significance.
+		Ex: I want to show more virus effected areas...then show heat than bubbles with sizes
+	
+	When do we use Longitude and Latitude?
+	If you don't find location names and accurate points to be presented, then longitude and latitude helpful.
+	Ex:
+	You don't know locations on top of sky / under sea water
+	In a location (hyd-ameerpet), want to locate Vinaytech, Power BI Tech instututes exactly...
+
+
+
+AI Visuals:
+	a) Decomposition Tree: It will divide the value into categories mentioned. Multiple level values we can derive.
+			      Advantage is how we got the value and its inner elements we can identify.
+
+	b) Key Influencer: Displays the category which influences most [decrease/ increase].
+
+R and Python:
+	R is statistical language. Python is General Purpose programming language[multiple operations].
+
+	These languages used at Power Query [Transformtions] and Power View level [visuals generation].
+	To use them to construct visuals
+	a) Download and Install software [File menu-->options and settings--> R Scripting / Python Scripting]
+	b) Download required Libraries, Classes and Methods [which you use in the scripting]
+	c) Drag and Drop R/ Python visual
+	d) Copy and Paste the Code in the Script Design Area
+	e) Run the code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interview preparation 9 am on sunday...
+
+
+
+
+Tabular cube session at 7-8.30 pm
+
+MSBI-SSAS Cube Concept
+
+
+8 pm...Tuesday will be the last session.
+7 pm... 15 more days...
+============================
+
+
+
+==========================================================
+
+Not compulsary
+
+Interview guidance at 9am
+How to prepare interview?
+
+No video shared...
+
+Q:	Which account is required to upload RDL files?
+A:	Premium
+Q:	Do we require Gateway and Credentials change at PBI Service level?
+A:	Yes
+Q:	How many ways of pagination we have?
+A:	Two ways a) Category based b) Expression based
+Q: 	How many ways we create paginated reporting?
+A:	a) Power BI Report Builder b) SSRS Report Builder  c) SSDT[SQL Server Data Tools]
+
+Q:	What is On-Premises Reporting?
+A:	If the report created using PBI Report Sever Desktop and Store Under Power BI
+	Report Server, then it is On-Premises reporting
+Q:	What exactly an on Premises Report Server require?
+A:	Three important components  a) Report Server Databases[Perm & Temp] b) Report Server
+	c) Report Manager [ Web Portal]
+Q:	As a Power BI Developer, which component you use for management of reports?
+A: 	Report Web Portal / Report Manager
+
+
+
+
+A project starts with life cycle process
+
+a) Requirements gathering b) Analysis c) Design d) Coding 
+	--Developers [non shift environment, Report Development, Report Unit / White box testing]
+
+ e) Testing --Testing Team /Quality Analysts Team / Report Testers
+	--Report functionality test / Blackbox testing
+	-The issues are called as Defects and raised at defect tracking tools [JIRA, BugZilla, QC, ALM etc...] 
+f) Implementation [deploy] : Either you do it or your seniors [Admin / architect / modeler..]
+	--Deployment mechanism 
+g) Maintenance [Support environment]: 
+	--Developers interested for support, Multiple levels [support levels: L1,L2, L3, L4]
+	--Issues are called as Incidents or Problem Tickets ..raised Service Now, Assure Service Desk...
+	--They have priorities [p1,p2,p3,p4], p1 being highest and p4 being lowest
+		p1: 4 hours   p2: 8 hours  p3: 12 hours p4: 16 hours
+Companies follow : Agile methodology and Scrum implementation [sprint...work assignment]
+DEV---> Testing [ QA]---> UAT ---> Production
+
+
+
+
+
+				
+
+
+Filter Functions:
+All: Ignore all conditions[browse/slice]: sumx(ALL(FactPayments), FactPayments[Discount_Fee])
+ALLExcept: Ignore all except the specified condition: 
+	Calculate(sum(Factpayments[Discount_Fee]),allexcept(DimDate, DimDate[Monthname]))
+SelectedValue: Displays the value selected by the user.
+	     Ex: Selected = if(ISFILTERED(DimDate[Year]),SELECTEDVALUE(DimDate[Year]),"Not Selected")
+AllSelected:	Multiple values select
+	 Ex: Multiple selected = if(ISFILTERED(DimDate[Year]),CONCATENATEX(allselected(DimDate  		[Year]),DimDate[Year],","),"Not Selected")
+
+	Multiple selected = if(ISFILTERED(DimDate[Year]),CONCATENATEX(VALUES(DimDate  				[Year]),DimDate[Year],","),"Not Selected")
+Calcuate Table: Generates a table of rows based on expression on a table
+	Ex: 2019 Year data=CALCULATETABLE(FactPayments,DimDate[Year]=2019)
+USERELATIONSHIP: Without going to model applying relationships dynamically
+Join Date DF=CALCULATE(sum(FactPayments[Discount_Fee]),USERELATIONSHIP(FactPayments[Join_Date],DimDate[Date]))
+CROSSFILTER:Without going to model applying directions dynamically
+		Ex:
+		= CALCULATE(DISTINCTCOUNT(DimCourse[CourseID]),CROSSFILTER(DimCourse		[CourseID],FactPayments[CourseID],BOTH))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
